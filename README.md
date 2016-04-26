@@ -12,10 +12,19 @@ A simple app created with the [Liberty app accelerator](http://liberty-app-accel
 
 ## Getting started
 
-Create an app with [Liberty app accelerator](http://liberty-app-accelerator.wasdev.developer.ibm.com/start) or clone this repo `git clone https://github.com/brennv/hello-spring`
+Create an app with [Liberty app accelerator](http://liberty-app-accelerator.wasdev.developer.ibm.com/start) or clone this repo 
+    
+    git clone https://github.com/brennv/hello-spring
 
-Step into the HelloWorld directory and run `mvn install`
+Step into the HelloWorld directory and run 
+
+    mvn install
 
 Navigate to [http://localhost:9080/myLibertyApp/](http://localhost:9080/myLibertyApp/)
 
+### Teardown
+
+To stop the server run 
+
+    mvn clean -P stopServer
 
